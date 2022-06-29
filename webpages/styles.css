@@ -1,1 +1,23 @@
-.class 
+.title {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    background-color: red;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+
+}
+
+.subtitle {
+
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 5px;
+    font-style: italic;
+    text-align: center;
+    background-color: red ;
+
+}
