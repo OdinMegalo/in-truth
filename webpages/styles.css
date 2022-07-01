@@ -1,5 +1,4 @@
 .title {
-
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
     text-align: center;
@@ -8,11 +7,9 @@
     text-decoration-color: white;
     margin-bottom: -6px;
     padding: 0px;
-
 }
 
 .subtitle {
-
     font-family: 'Times New Roman', Times, sans-serif;
     font-size: 20px;
     margin: 0;
@@ -21,25 +18,22 @@
     text-align: center;
     color: red;
     background-color: black;
-    
 }
 
 .menu {
-
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
     overflow: hidden;
     margin-top: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-left: 5px;
     top: 0;
     width: 100%;
-
 }
 
 .menu a{
-
     float:left;
     display: block;
-    text-align: center;
     padding: 14px 16px;
 }
 
@@ -49,9 +43,7 @@
 .menu a:active {color: lightseagreen; text-decoration: none;}
 
 
-
 .heading {
-
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     text-align: center;
@@ -59,18 +51,12 @@
     padding: 2px;
     color: red;
     background-color: black;
-   
 }
 
 .flex-container {
-
     display: flex;
     height: 150px;
     margin-top: 50px;
     margin-bottom: -10px;
     justify-content: space-between;
-
   }
-
-
-  /*gap:15px
