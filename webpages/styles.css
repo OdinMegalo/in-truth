@@ -22,41 +22,42 @@
     color: red;
     background-color: black;
     
-
 }
 
+.menu {
+
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 15px;
+    
+
+    
+
+
+
+}
 .heading {
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 35px;
+    padding: 2px;
     color: red;
     background-color: black;
-    border: 2px solid red;
-}
-
-img.images {
-
-    margin-top: 50px;
-    margin-bottom: -10px;
-    height: auto;
-    width: auto;
-    display: inline-block;
-
+   
 }
 
 .flex-container {
-     display: flex;
-     flex-direction: row;
-     justify-content: left;
 
-  }
-  
-  /* this selector selects all image divs inside of .flex-container */
-  .flex-container img {
-    background: peachpuff;
-    margin-inline-end: 15px;
+    display: flex;
     height: 150px;
-     flex: 1 0 1;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    justify-content: space-between;
+
+    
   }
+
+
+  /*gap:15px
