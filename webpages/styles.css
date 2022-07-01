@@ -20,10 +20,20 @@
     background-color: black;
 }
 
+.search-bar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.search-inputs[type="text"] {
+    flex: 1 1 auto;
+}
+
 .menu {
     display: flex;
     flex: auto;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     margin-top: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
