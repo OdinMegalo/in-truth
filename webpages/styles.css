@@ -1,27 +1,72 @@
-.title {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 60px;
-    text-align: center;
-    color: red;
-    background-color: black;
-    text-decoration-color: white;
-    margin-bottom: -6px;
-    padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+.flex-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-family: Impact, Georgia, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
 }
 
+.header-left, .header-right{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.profile-picture{
+    background: red;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 48px;
+    height:  48px;
+}
+
+.logo{
+    font-family: besley,serif;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    background: black;
+    color: red;
+    padding: 8px 24px;
+}
+
+.flex-title a:link {color: black; text-decoration: none;}
+.flex-title a:focus {color: blueviolet; text-decoration: none;}
+.flex-title a:hover {color: red; text-decoration: none;}
+.flex-title a:active {color: lightseagreen; text-decoration: none;}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+/*
 .subtitle {
     font-family: 'Times New Roman', Times, sans-serif;
     font-size: 20px;
-    margin: 0;
+    margin: -10px;
     padding-bottom: 5px;
     font-style: italic;
     text-align: center;
     color: red;
     background-color: black;
 }
+*/
 
 .search-bar{
-    margin-top: 10px;
+
+    margin-top: 15px;
     display: flex;
     justify-content: center;
 }
@@ -42,8 +87,6 @@
 }
 
 .menu a{
-    float:left;
-    display: block;
     padding: 14px 16px;
 }
 
