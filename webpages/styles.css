@@ -51,25 +51,13 @@ ul {
     gap: 20px;
 }
 
-/*
-.subtitle {
-    font-family: 'Times New Roman', Times, sans-serif;
-    font-size: 20px;
-    margin: -10px;
-    padding-bottom: 5px;
-    font-style: italic;
-    text-align: center;
-    color: red;
-    background-color: black;
-}
-*/
-
 .search-bar{
 
     margin-top: 15px;
     display: flex;
     justify-content: center;
 }
+
 .search-inputs[type="text"] {
     flex: 1 1 auto;
 }
@@ -95,21 +83,36 @@ ul {
 .menu a:hover {color: red; text-decoration: none;}
 .menu a:active {color: lightseagreen; text-decoration: none;}
 
-
 .heading {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 2px;
-    color: red;
-    background-color: black;
+    color: black;
 }
 
-.flex-container {
+.container {
     display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 52px;
+  }
+
+  img {
     height: 150px;
-    margin-top: 50px;
-    margin-bottom: -10px;
-    justify-content: space-between;
+    width: auto;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
   }
