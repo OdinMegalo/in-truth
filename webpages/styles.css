@@ -5,49 +5,35 @@ html,body{
     height: 100%;
 }
 
+/* Top header section */
 
-.title{
-    display: flex;
-    justify-content: space-between;
+.header-section{
+    display: flex; 
+    justify-content: space-between; 
     padding: 8px;
-    font-family: Impact, Georgia, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Georgia, sans-serif; 
     background-color: white;
     border-bottom: 1px solid #ddd;
 }
-
 .header-left, .header-right{
     display: flex;
     align-items: center;
     gap: 16px;
 }
-.profile-picture{
-    background: red;
-    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-    border-radius: 50%;
-    width: 48px;
-    height:  48px;
-}
-
 .logo{
     font-family: besley,serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(2, 174, 28);
     font-size: 32px;
     font-weight: 900;
     font-style: italic;
     margin-right: 10px;
 }
 
-button{
-    border: none;
-    border-radius: 8px;
-    background: black;
-    color: red;
-    padding: 8px 24px;
-}
-
-.title a:link {color: black; text-decoration: none;}
-.title a:focus {color: blueviolet; text-decoration: none;}
-.title a:hover {color: red; text-decoration: none;}
-.title a:active {color: lightseagreen; text-decoration: none;}
+.header-section a:link {color: black; text-decoration: none;}
+.header-section  a:focus {color: blueviolet; text-decoration: none;}
+.header-section  a:hover {color: red; text-decoration: none;}
+.header-section  a:active {color: lightseagreen; text-decoration: none;}
 
 ul {
     list-style-type: none;
@@ -59,35 +45,20 @@ ul {
 
 .search-bar{
 
-    margin-top: 15px;
     display: flex;
     justify-content: center;
 }
 
+button.search-inputs{
+
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(2, 174, 28);
+    padding: 8px 24px;
+}
 .search-inputs[type="text"] {
     flex: 1 1 auto;
 }
-
-.menu {
-    display: flex;
-    flex: auto;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    margin-top: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    top: 0;
-    width: 100%;
-}
-
-.menu a{
-    padding: 14px 16px;
-}
-
-.menu a:link {color: black; text-decoration: none;}
-.menu a:focus {color: blueviolet; text-decoration: none;}
-.menu a:hover {color: red; text-decoration: none;}
-.menu a:active {color: lightseagreen; text-decoration: none;}
 
 .heading {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -118,23 +89,14 @@ ul {
     width: 250px;
   }
 
-  .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #eee;
-  }
+  /* Donate section */
 
   .donate-section{
     margin-top: 50px;
-    height: 40%;
+    height: 32%;
+    border-radius: 20px;
     font-family: Roboto, sans-serif;
-    background: green;
+    background: rgb(2, 174, 28);
     color: #333;
     display: flex;
     align-items: center;
@@ -143,11 +105,12 @@ ul {
 
   .donate-modal {
     display: flex;
+    margin: 20px;
     gap: 16px;
     padding: 16px;
     background: white;
-    width: 480px;
-    border-radius: 10px;
+    height: 200px;
+    border-radius: 20px;
     box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
   }
 
@@ -194,13 +157,31 @@ ul {
   button.donate-button {
     background: rgb(0, 255, 38);
     border: 2px solid green;
+    border-radius: 20px;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 75px;
     width: 150px;
+    margin-bottom: 10px;
   }
   
   button.no-donate-button{
+    display: flex;
+    border-radius: 20px;
     background: white;
     color:grey
+  }
+
+  /* Footer section */
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
   }
