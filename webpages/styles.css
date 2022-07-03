@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html,body{
+    height: 100%;
+}
+
 
 .title{
     display: flex;
@@ -97,18 +103,19 @@ ul {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 52px;
+    gap: 30px;
   }
   
   .info .text{
+    font-size: 17px;
     margin-top: 5px;
     max-width: 250px;
     font-family: 'Times New Roman', Times, sans-serif;
   }
 
   img {
-    height: 150px;
-    width: auto;
+    height: 170px;
+    width: 250px;
   }
 
   .footer {
@@ -121,4 +128,79 @@ ul {
     align-items: center;
     justify-content: center;
     background: #eee;
+  }
+
+  .donate-section{
+    margin-top: 50px;
+    height: 40%;
+    font-family: Roboto, sans-serif;
+    background: green;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .donate-modal {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    background: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+  }
+
+  .donate-icon{
+    flex-shrink: 0;
+    color: black;
+    font-size: 26px;
+    font-weight: 700;
+    background: rgb(124, 255, 118);
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .donate-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .donate-modal-text{
+    margin-bottom: 16px;
+  }
+
+  .donate-close-button{
+    background: #eee;
+    border-radius: 50%;
+    color: #888;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button.donate-button {
+    background: rgb(0, 255, 38);
+    border: 2px solid green;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 75px;
+    width: 150px;
+  }
+  
+  button.no-donate-button{
+    background: white;
+    color:grey
   }
