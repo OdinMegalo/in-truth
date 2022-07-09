@@ -1,16 +1,21 @@
+
+/* The main content window is turned into a flexbox that can adjust itself with the screen/window size */
+
 body {
     display: flex;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex: 1;
+    font-family: 'Times New Roman', Times, sans-serif;
     margin: 0;
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: column; 
   }
 
   .body{
-    flex: 1;
     display: flex;
+    flex: 1;
   }
 
+  /* The header functions as a flebox and the logo goes inside it as its own box.*/
   .header {
     display: flex;
     align-items: center;
@@ -28,15 +33,15 @@ body {
     height: 40px;
   }
 
+  /* As the entire page is flexbox designed, the title needs to have its own flexbox to function properly with the rest*/
   .title-box {
     display: flex;
-    padding: 32px;
+    padding-top: 32px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
   }
-  
   .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 32px;
@@ -45,16 +50,19 @@ body {
     text-decoration-color: rgb(27, 233, 27);
     color: navy;
   }
+
+  /* The sidebar is designed as a menu so the dimensions need to fit without being too big*/
   
   .sidebar-left{
     flex-shrink: 0;
     padding: 16px;
     padding-top: 25px;
     width: 150px;
-    margin-top: -101px;
+    margin-top: -69px;
     background: navy;
   }
 
+  /* Links are given some style and some space between them too*/
   ul{
     list-style-type: none;
     margin: 0;
@@ -72,6 +80,7 @@ body {
     font-size: 17px;
   }
 
+  /* The main content on this page is the cards and the container flexbox they are contained in. Using the wrap feature allows the cards to columnise if there is a lack of space. */
   .container {
     padding: 32px;
     display: flex;
@@ -87,6 +96,7 @@ body {
     width: 300px;
   }
 
+/* Footer section */
   .footer {
     display: flex;
     justify-content: center;
