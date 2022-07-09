@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .body{
+    flex: 1;
+    display: flex;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    font-size: 32px;
+    font-weight: 900;
+    background: #eee;
+    color: white;
+  }
+
+  .logo {
+    display: flex;
+    width: auto;
+    height: 40px;
+  }
+
+  .title-box {
+    display: flex;
+    padding: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: rgb(27, 233, 27);
+    color: navy;
+  }
+  
+  .sidebar-left{
+    flex-shrink: 0;
+    padding: 16px;
+    padding-top: 25px;
+    width: 150px;
+    margin-top: -101px;
+    background: navy;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 16px;
+  }
+
+  a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .container {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+    padding: 16px;
+    background: #eee;
+    color: navy;
+  }
