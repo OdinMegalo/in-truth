@@ -103,7 +103,7 @@ body {
     padding: 0 6px;
 }
 
-.aims:after, .positives:after, .donate:after {
+.aims:after, .positives:after, .donate:after, .logo-text:after {
     content: "";
     position: absolute;
     background-image: linear-gradient(to right, rgb(0, 255, 0), rgba(3, 182, 0, 0.627));
@@ -114,11 +114,11 @@ body {
     transition: 0.3s;
 }
 
-.aims:hover:after, .positives:hover:after, .donate:hover:after {
+.aims:hover:after, .positives:hover:after, .donate:hover:after, .logo-text:after {
     width: 100%;
 }
 
-.aims:hover, .positives:hover, .donate:hover{
+.aims:hover, .positives:hover, .donate:hover, .logo-text:hover{
     text-shadow: 0 0 5px rgb(123, 255, 0), 0 0 12px rgb(1, 233, 55), 0 0 20px rgba(0, 179, 3, 0.632);
     color: white;
 }
