@@ -126,10 +126,11 @@ body {
 
 .world-box {
     display: flex;
+    flex-direction: r;
     flex: 1;
     flex-wrap: wrap;
     background: rgb(234, 233, 233);
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 44px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -153,7 +154,7 @@ body {
 .world-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -172,7 +173,8 @@ body {
 
 .world-image {
     display: flex;
-    width: auto;
+    width: 350px;
     height: 350px;
+    margin-left: -200px;
 }
 
