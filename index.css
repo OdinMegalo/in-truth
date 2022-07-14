@@ -198,8 +198,8 @@ body {
 /* Boxes Section */
 
 .boxes {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     align-items: center;
     text-align: center;
 }
@@ -208,6 +208,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-size: 20px;
 }
 
 .boxes-info img {
@@ -232,6 +233,7 @@ body {
     padding: 16px;
     background: rgb(0, 0, 0);
     color: rgb(42, 210, 0);
+    margin-top: 50px;
   }
 
 
