@@ -107,7 +107,7 @@ body {
 
 
 /* Page interactivity and animations section */
-.aims, .positives, .donate, .world-content-heading{
+.aims, .positives, .donate, .recipes, .world-content-heading{
     font-size: 1.1em;
     text-decoration: none;
     color: white;
@@ -116,7 +116,7 @@ body {
     padding: 0 6px;
 }
 
-.aims:after, .positives:after, .donate:after, .logo-text:after, .world-content-heading::after{
+.aims:after, .positives:after, .donate:after, .recipes::after, .logo-text:after, .world-content-heading::after{
     content: "";
     position: absolute;
     background-image: linear-gradient(to right, rgb(0, 255, 0), rgba(3, 182, 0, 0.627));
@@ -127,16 +127,18 @@ body {
     transition: 0.3s;
 }
 
-.aims:hover:after, .positives:hover:after, .donate:hover:after, .logo-text:after, .world-content-heading::after {
+.aims:hover:after, .positives:hover:after, .donate:hover:after, .recipes:hover:after , .logo-text:hover:after, .world-content-heading:hover:after {
     width: 100%;
 }
 
-.aims:hover, .positives:hover, .donate:hover, .logo-text:hover{
+.aims:hover, .positives:hover, .donate:hover, .recipes:hover ,.logo-text:hover{
     text-shadow: 0 0 5px rgb(123, 255, 0), 0 0 12px rgb(1, 233, 55), 0 0 20px rgba(0, 179, 3, 0.632);
     color: white;
 }
 
 .world-content-heading:hover{
+    text-shadow: 0 0 5px rgb(123, 255, 0), 0 0 12px rgb(1, 233, 55), 0 0 20px rgba(0, 179, 3, 0.632);
+    color: white;
     box-shadow: 0 0 5px rgb(123, 255, 0), 0 0 12px rgb(1, 233, 55), 0 0 20px rgba(0, 179, 3, 0.632);
 }
 
