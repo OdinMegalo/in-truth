@@ -116,7 +116,7 @@ body {
     padding: 0 6px;
 }
 
-.aims:after, .positives:after, .donate:after, .recipes::after, .logo-text:after, .world-content-heading::after{
+.aims:after, .positives:after, .donate:after, .recipes:after, .logo-text:after {
     content: "";
     position: absolute;
     background-image: linear-gradient(to right, rgb(0, 255, 0), rgba(3, 182, 0, 0.627));
@@ -137,9 +137,19 @@ body {
 }
 
 .world-content-heading:hover{
-    text-shadow: 0 0 5px rgb(123, 255, 0), 0 0 12px rgb(1, 233, 55), 0 0 20px rgba(0, 179, 3, 0.632);
+    text-shadow: 0 0 5px rgb(0, 255, 149), 0 0 12px rgb(1, 255, 217), 0 0 20px rgba(0, 152, 155, 0.632);
     color: white;
     box-shadow: 0 0 5px rgb(123, 255, 0), 0 0 12px rgb(1, 233, 55), 0 0 20px rgba(0, 179, 3, 0.632);
+}
+.world-content-heading:after{
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, rgb(221, 0, 255), rgb(255, 124, 146));
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -8px;
+    transition: 0.3s;
 }
 
 .boxes-image:hover{
