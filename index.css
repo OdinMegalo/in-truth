@@ -1,3 +1,4 @@
+/* HTML and Body section */
 html {
     margin: 0;
     min-height: 100%;
@@ -11,6 +12,9 @@ body {
     width: 100%;
 }
 
+
+
+/* Main header bar*/
 .header-bar {
     display: flex;
     width: 100%;
@@ -26,6 +30,10 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
+
+
+
+/* Left side of the header bar - logo and logo text*/
 .left-header-bar {
     display: flex;
     flex-direction: row;
@@ -33,7 +41,6 @@ body {
     justify-content: space-between;
     width: 16em;
 }
-
 .logo-container {
     margin: 0.7em 0 0.7em 2vw;
     display: flex;
@@ -43,17 +50,14 @@ body {
     width: 8.8em;
     text-decoration: none;
 }
-
 .logo-image-container {
     display: flex;
     align-items: center;
     margin-right: 0.5em;
 }
-
 .logo {
     width: 2em;
 }
-
 .logo-text {
     color: white;
     text-transform: uppercase;
@@ -63,12 +67,15 @@ body {
     font-family: Impact, Haettenschweiler, Georgia, 'Arial Narrow Bold', sans-serif;
 }
 
+
+
+
+/* Right side of the header bar - menu */
 .right-header-bar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .right-header-content {
     display: flex;
     flex-direction: row;
@@ -78,9 +85,7 @@ body {
     color: white;
     width: 27em;
     margin-right: 2.5vw;
-    
 }
-
 .right-header-content.show {
     display: flex;
     position: absolute;
@@ -92,12 +97,16 @@ body {
     right: -0.42em;
     background: rgba(0, 0, 0, 0.9);
 }
-
 .seperator-logo {
     width: 2em;
     height: 2em;
 }
 
+
+
+
+
+/* Page interactivity and animations section */
 .aims, .positives, .donate, .world-content-heading{
     font-size: 1.1em;
     text-decoration: none;
@@ -126,9 +135,11 @@ body {
     text-shadow: 0 0 5px rgb(123, 255, 0), 0 0 12px rgb(1, 233, 55), 0 0 20px rgba(0, 179, 3, 0.632);
     color: white;
 }
+
 .world-content-heading:hover{
     box-shadow: 0 0 5px rgb(123, 255, 0), 0 0 12px rgb(1, 233, 55), 0 0 20px rgba(0, 179, 3, 0.632);
 }
+
 .boxes-image:hover{
     box-shadow: 0 0 5px rgb(123, 255, 0), 0 0 12px rgb(1, 233, 55), 0 0 20px rgba(0, 179, 3, 0.632);
     background-color: black;
@@ -141,6 +152,10 @@ body {
 
 
 
+
+
+
+/* After header message section - For a better world */
 .world-box {
     display: flex;
     flex-direction: row;
@@ -155,21 +170,6 @@ body {
     margin-top: 44px;
     padding-top: 30px;
     text-decoration: none;
-}
-
-
-.world-box button {
-    display: block;
-    text-align: center;
-    width: 110px;
-    border: none;
-    background: #22ff00;
-    padding: 10px;
-    border-radius: 8px;
-    color: rgb(0, 0, 0);
-    font-family: 'Roboto', arial;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .world-content {
@@ -193,7 +193,6 @@ body {
     margin: 0;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: rgb(8, 199, 8);
-    
 }
 
 .world-image {
@@ -204,22 +203,22 @@ body {
 }
 
 
-/* Boxes Section */
 
+
+
+/* Main boxes section */
 .boxes {
     margin-top: 50px;
     margin-bottom: 50px;
     align-items: center;
     text-align: center;
 }
-
 .boxes-info {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     font-size: 20px;
 }
-
 .boxes-info img {
     width: 200px;
     height: 200px;
@@ -228,6 +227,7 @@ body {
     border-radius: 15px;
     margin: 5px 20px 0px 20px;
 }
+
 
 
 
