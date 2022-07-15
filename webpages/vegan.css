@@ -219,6 +219,7 @@ body {
 
 /* Main boxes section */
 .boxes {
+
     margin-top: 50px;
     margin-bottom: 50px;
     align-items: center;
@@ -233,7 +234,7 @@ body {
 .boxes-info a {
     text-decoration: none;
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 .boxes-info img {
     width: 200px;
