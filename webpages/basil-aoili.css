@@ -472,3 +472,8 @@ body {
     padding: 16px;
     background: rgb(223, 222, 222);
   }
+  .footer a {
+
+    color: black;
+    margin-left: 4px;
+  }
