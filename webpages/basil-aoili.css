@@ -424,22 +424,21 @@ body {
     flex-wrap: wrap;
     flex: 1;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-family: sans-serif;
     height: 400px;
     padding: 16px;
-    margin-top: 3px;
-    background: rgb(223, 223, 223);
+    margin-top: 10px;
+    background: rgb(243, 243, 243);
 }
 
 .footer-list-box{
     display: flex;
     flex-direction: column;
     height: 370px;
-    width: 240px;
+    width: 200px;
     margin-top: 10px;
     margin-left: 10px;
-    outline: black 2px solid;
 }
 
 .footer-list-header{
